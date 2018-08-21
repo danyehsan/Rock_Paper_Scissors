@@ -1,0 +1,80 @@
+body {
+    background-image: url(images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 80px;
+    text-shadow: black 0px 0px 40px;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 90px;
+    color: white;
+    text-shadow: black 20px 0px 100px;
+    font-style: oblique;
+}
+
+.buttons {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    
+}
+
+.rock {
+    border-style: none;
+    background-color: rgba(0,0,0,0.0);
+    }
+
+.rock: hover {
+    margin: 300px;
+    padding: 20px; 
+}
+
+.rock img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    
+}
+
+.paper {
+    border-style: none;
+    background-color: rgba(0,0,0,0.0);
+}
+.paper img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.scissors {
+    border-style: none;
+    background-color: rgba(0,0,0,0.0);
+}
+
+.scissors img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.output {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: black 0px 0px 40px;
+
+}
